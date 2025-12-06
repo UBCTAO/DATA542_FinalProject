@@ -45,7 +45,7 @@ The analysis includes:
 
 ### **Statistical tests**
 - Kruskal–Wallis test (non-parametric comparison of time-to-merge distributions)  
-- Logistic regression with interaction (`merged ~ body_length * agent`)  
+- Logistic regression with interaction (`merged ~ log(body_length) * agent`)  
 - Spearman correlation for temporal trends  
 
 ### **Visualizations**
@@ -90,3 +90,6 @@ Dataset fields used include:
 - `created_at`
 - `merged_at`
 ---
+
+
+
