@@ -1,4 +1,4 @@
-```markdown
+
 # DATA 542 Final Project
 ### Analyzing AI Coding Agents in GitHub Pull Requests
 
@@ -90,5 +90,3 @@ Dataset fields used include:
 - `created_at`
 - `merged_at`
 ---
-
-```
